@@ -1,0 +1,16 @@
+.body {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1280px;
+  box-sizing: border-box;
+  height: 100%;
+  background-color: #fff;
+  /* background: linear-gradient(red 10%, blue 60%, #fff 80%); */
+  font-family: "Inter", "Poppins", Arial, Helvetica, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}

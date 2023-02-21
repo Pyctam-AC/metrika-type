@@ -1,0 +1,8 @@
+.input-wrapper {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.input-wrapper:not(:last-child) {
+  margin-bottom: 20px;
+}

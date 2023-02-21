@@ -3,34 +3,34 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weight Converter</title>
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Stylesheet -->
     <link rel="stylesheet" href="../styles/style.css" />
   </head>
-  <body>
-    <header class="header__page">
+  <body class="body">
+    <header class="header header__page">
       <a href="../metrika.html" class="return-link">Назад</a>
-      <h1>Меры веса кг/фунт/унция</h1>
+      <h1 class="title">Меры массы: кг/фунт/унция</h1>
     </header>
-    <div class="container">
-      <h2>Конвертер веса</h2>
-      <div class="input-wrapper">
-        <label for="kg">Килограмм:</label>
-        <input type="number" id="kg" value="1" />
+    <main class="content">
+      <div class="container">
+        <h2 class="container__title">Конвертер веса</h2>
+        <div class="input-wrapper">
+          <label for="kg">Килограмм:</label>
+          <input class="input-wrapper__input" type="number" id="kg" value="1" />
+        </div>
+        <div class="input-wrapper">
+          <label for="lb">Фунты:</label>
+          <input class="input-wrapper__input" type="number" id="lb" />
+        </div>
+        <div class="input-wrapper">
+          <label for="oz">Унции:</label>
+          <input class="input-wrapper__input" type="number" id="oz" />
+        </div>
       </div>
-      <div class="input-wrapper">
-        <label for="lb">Фунты:</label>
-        <input type="number" id="lb" />
-      </div>
-      <div class="input-wrapper">
-        <label for="oz">Унции:</label>
-        <input type="number" id="oz" />
-      </div>
-    </div>
+    </main>
+    <footer class="footer">
+      <p class="footer__capture">Rustam Sultangaliev</p>
+    </footer>
+
     <!-- Script -->
     <script src="../scripts/weigt.js"></script>
   </body>

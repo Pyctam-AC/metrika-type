@@ -1,13 +1,42 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+
+@import url(../styles/body/body.css);
+
+@import url(../styles/header/header.css);
+
+@import url(../styles/content/content.css);
+
+@import url(../styles/title/title.css);
+
+@import url(../styles/link-style/link-cards.css);
+@import url(../styles/link-style/link__item.css);
+@import url(../styles/link-style/return-link.css);
+
+@import url(../styles/image-style/link-img.css);
+
+@import url(../styles/container/container.css);
+@import url(../styles/container/container__title.css);
+
+@import url(../styles/input-wrapper/input-wrapper.css);
+@import url(../styles/input-wrapper/input-wrapper__label.css);
+@import url(../styles/input-wrapper/input-wrapper__input.css);
+
+@import url(../styles/footer/footer.css);
+
+/*
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Inter", "Poppins", Arial, Helvetica, sans-serif;
 }
-body {
+ */
+/* body {
   height: 100vh;
   background: linear-gradient(red 10%, blue 60%, #fff 80%);
-}
+} */
+/*
 .container {
   background-color: #ffffff;
   width: 90vw;
@@ -20,12 +49,14 @@ body {
   left: 50%;
   box-shadow: 0 0 3.2em rgba(1, 3, 29, 0.2);
   border-radius: 0.6em;
-}
-h2 {
+} */
+
+/* h2 {
   font-size: 2em;
   text-align: center;
   margin-bottom: 1.5em;
-}
+} */
+/*
 .input-wrapper input {
   display: block;
   width: 100%;
@@ -41,6 +72,10 @@ h2 {
   background-color: beige;
 }
 
+.input-wrapper input:focus {
+  background-color: beige;
+}
+
 
 .input-wrapper label {
   display: block;
@@ -50,9 +85,10 @@ h2 {
 }
 .input-wrapper:not(:last-child) {
   margin-bottom: 1.2em;
-}
-@media screen and (max-width: 28em) {
+} */
+/* @media screen and (max-width: 28em) {
   .container {
     font-size: 14px;
   }
 }
+ */
