@@ -30,7 +30,7 @@
 
 
 .link__item:active {
-  transform: scale(.9);
+  transform: scale(1);
 }
 
 @media screen and (max-width: 424px) {
