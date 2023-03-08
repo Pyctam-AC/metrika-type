@@ -1,0 +1,15 @@
+.linkCard__title {
+  margin: 0 auto;
+  margin-top: 10px;
+  max-width: 250px;
+  font-family: "Inter", "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #000;
+}
+
+
+@media screen and (max-width: 424px) {
+  .linkCard__title {
+    font-size: 15px;
+  }
+}

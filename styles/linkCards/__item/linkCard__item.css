@@ -1,7 +1,7 @@
-.link__item {
+.linkCard__item {
   margin: 20px 0 20px 0;
   padding: 20px;
-  max-width: 282px;
+  width: 282px;
   height: 200px;
   display: flex;
   flex-direction: column;
@@ -13,28 +13,32 @@
   background-color: #FFF;
   position: relative;
   /* margin-top: 25px; */
-  font-family: "Inter", "Poppins", Arial, Helvetica, sans-serif;
-  font-size: 20px;
   text-decoration: none;
-  color: #000;
   opacity: 90%;
   transition: 0.3s linear;
   cursor: pointer;
 }
 
-.link__item:hover {
+.linkCard__item:hover {
   opacity: 100%;
-  transform: scale(1.01);
+  /* transform: scale(1.01); */
   box-shadow: 0 0 8px rgba(1, 3, 29, 0.2);
 }
 
 
-.link__item:active {
-  transform: scale(1);
+.linkCard__item:active {
+  transform: scale(.98);
 }
 
+@media screen and (max-width: 890px) {
+  .linkCard__item {
+    margin: 0;
+  }
+}
+
+
 @media screen and (max-width: 424px) {
-  .link__item {
+  .linkCard__item {
     padding: 10px;
     font-size: 15px;
     height: 150px;

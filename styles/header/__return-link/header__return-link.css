@@ -1,4 +1,4 @@
-.return-link {
+.header__return-link {
   margin: 0;
   margin-top: 10px;
   width: min-content;
@@ -12,18 +12,18 @@
   cursor: pointer;
 }
 
-.return-link:hover {
+.header__return-link:hover {
   opacity: 100%;
-  transform: scale(1.02);
+  transform: scale(1.01);
 }
 
 
-.return-link:active {
+.header__return-link:active {
   transform: scale(.99);
 }
 
 @media screen and (max-width: 424px) {
-  .return-link {
+  .header__return-link {
     margin-top: 15px;
     font-size: 15px;
   }

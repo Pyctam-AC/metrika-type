@@ -2,32 +2,42 @@
 <html lang="ru">
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Converter quantities</title>
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
-  <!-- Stylesheet -->
   <link rel="stylesheet" href="./styles/style.css" />
+  <title>Converter quantities</title>
 </head>
 <body class="body">
   <header class="header">
-    <h1 class="title">Конвертер мер массы и длины</h1>
+    <h1 class="title">Конвертер физических единиц</h1>
   </header>
   <main class="content">
-    <nav class="link-cards">
-      <a class="link__item" href="./pages/widht.html">
-        Меры длины: км/миля/морская миля
-        <img class="link-img" src="./images/width-icon.svg">
+    <nav class="linkCards">
+     <!--  <a type="button" class="linkCard__item" href="./pages/widht.html">
+        <h3 class="linkCard__title">Меры длины: км/миля/морская миля</h3>
+        <img class="linkCard__image" src="./images/width-icon.svg">
       </a>
-      <a class="link__item" href="./pages/weigt.html">
-        Меры массы: кг/фунт/унция
-        <img class="link-img" src="./images/ironweight_102679.svg">
-      </a>
+      <a type="button" class="linkCard__item" href="./pages/weigt.html">
+        <h3 class="linkCard__title">Меры массы: кг/фунт/унция</h3>
+        <img class="linkCard__image" src="./images/ironweight_102679.svg">
+      </a> -->
     </nav>
   </main>
 
   <footer class="footer">
     <p class="footer__capture">Rustam Sultangaliev</p>
   </footer>
+<!--template Cards-->
+  <template id="linkCard__item">
+    <a type="button" class="linkCard__item" href="#">
+      <h3 class="linkCard__title"></h3>
+      <img class="linkCard__image" src="#">
+    </a>
+  </template>
 
+  <!--scripts-->
+  <script src="./scripts/constants/constants.js"></script>
+  <script type="module" src="./scripts/PagesCards.js"></script>
+  <script type="module" src="./scripts/index.js"></script>
+  <!-- <script type="module" src="./scripts/constants/constants.js"></script>
+ -->
 </body>
 </html>
