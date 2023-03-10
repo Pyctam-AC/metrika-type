@@ -10,9 +10,9 @@ const measureCard = [
     image: './images/ironweight_102679.svg'
   },
   {
-    name: 'Меры объёма: литр/галлон/пинта',
+    name: 'Меры объёма жидкостей: литр/галлон/пинта',
     href: './pages/volume.html',
-    image: './images/ironweight_102679.svg'
+    image: './images/volume_line_icon_235525.svg'
   },
 ];
 

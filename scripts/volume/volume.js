@@ -1,27 +1,27 @@
-let kgRef = document.getElementById("kg");
-let lbRef = document.getElementById("lb");
-let ozRef = document.getElementById("oz");
+let ltrRef = document.getElementById("ltr");
+let galRef = document.getElementById("gal");
+let pntRef = document.getElementById("pnt");
 
-let convertFromKg = () => {
-  let kg = kgRef.value;
+let convertFromltr = () => {
+  let ltr = ltrRef.value;
   //toFixed(2) limits the decimals to 2 digits.
-  lbRef.value = (kg * 2.205).toFixed(2);
-  ozRef.value = (kg * 35.274).toFixed(2);
+  galRef.value = (ltr / 3.785).toFixed(2);
+  pntRef.value = (ltr / 0.568).toFixed(2);
 };
 
-let convertFromLb = () => {
-  let lb = lbRef.value;
-  kgRef.value = (lb / 2.205).toFixed(2);
-  ozRef.value = (lb * 16).toFixed(2);
+let convertFromgal = () => {
+  let gal = galRef.value;
+  ltrRef.value = (gal * 3.785).toFixed(2);
+  pntRef.value = (gal * 6.67).toFixed(2);
 };
 
-let convertFromOz = () => {
-  let oz = ozRef.value;
-  kgRef.value = (oz / 35.274).toFixed(2);
-  lbRef.value = (oz / 16).toFixed(2);
+let convertFrompnt = () => {
+  let pnt = pntRef.value;
+  ltrRef.value = (pnt * 1.76).toFixed(2);
+  galRef.value = (pnt * 6.67).toFixed(2);
 };
 
-kgRef.addEventListener("input", convertFromKg);
-lbRef.addEventListener("input", convertFromLb);
-ozRef.addEventListener("input", convertFromOz);
-window.addEventListener("load", convertFromKg);
+ltrRef.addEventListener("input", convertFromltr);
+galRef.addEventListener("input", convertFromgal);
+pntRef.addEventListener("input", convertFrompnt);
+window.addEventListener("load", convertFromltr);
