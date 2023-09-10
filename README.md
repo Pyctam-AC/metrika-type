@@ -9,10 +9,10 @@
 
 Можно добавлять карточки желаемых физических величин.
 
-Исходный код выполнен на натичнов JavaScript.
+Исходный код выполнен на нативном JavaScript.
 
 
-Ссылка на GitHub [**metrika**](https://pyctam-ac.github.io/metrika-type/metrika.html)
+Ссылка [**metrika**](https://pyctam-ac.github.io/metrika-type/metrika.html)
 
 
 ---
