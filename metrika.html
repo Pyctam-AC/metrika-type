@@ -19,7 +19,11 @@
   </main>
 
   <footer class="footer">
-    <p class="footer__capture">© Rustam Sultangaliev 2023</p>
+    <p class="footer__capture">© Rustam Sultangaliev&nbsp;</p>
+    <p class="footer__text" id="currentYear"></p>
+      <script>
+          document.getElementById('currentYear').innerHTML = new Date().getFullYear();
+      </script>
   </footer>
 
   <!--template Cards-->
